@@ -16,14 +16,10 @@ public class CssSelectorsILCarro {
 
 
         WebElement inputCity = driver.findElement(By.cssSelector("[formcontrolname='city']"));
-        inputCity.click();
-        inputCity.sendKeys("Tel Aviv, Israel");
 
         WebElement inputDates = driver.findElement(By.cssSelector("[formcontrolname='dates']"));
-        inputDates.click();
 
         WebElement btnYalla = driver.findElement(By.cssSelector("[type='submit']"));
-        btnYalla.click();
 
         WebElement btnJoinNow = driver.findElement(By.cssSelector("[href='login']"));
         btnJoinNow.click();
